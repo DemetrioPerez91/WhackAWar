@@ -406,6 +406,7 @@
 		E382BC1E202BE0B500645FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VQL689QWK;
 				HEADER_SEARCH_PATHS = /usr/local/include;
@@ -423,6 +424,7 @@
 		E382BC1F202BE0B500645FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VQL689QWK;
 				HEADER_SEARCH_PATHS = /usr/local/include;
