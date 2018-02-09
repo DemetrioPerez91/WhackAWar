@@ -18,6 +18,7 @@
 #include "InputManager.hpp"
 #include "TimmerWrapper.hpp"
 
+#include "BackgroundGameObject.hpp"
 
 //Static class that sets up the
 //game and it's update cycle.
@@ -26,6 +27,8 @@ class GameManagerComponent
 public:
 
     static bool gameOver;
+
+    static BackgroundGameObject * background;
     
     static std::vector<GameObject*> objects;
     

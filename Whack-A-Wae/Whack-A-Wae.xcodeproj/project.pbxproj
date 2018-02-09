@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E35D437D202D5210009F0F28 /* BackgroundGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E35D437B202D5210009F0F28 /* BackgroundGameObject.cpp */; };
 		E382BC66202BE6B700645FA4 /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E382BC4E202BE6B500645FA4 /* AudioManager.cpp */; };
 		E382BC67202BE6B700645FA4 /* DebugDisplayObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E382BC4F202BE6B500645FA4 /* DebugDisplayObject.cpp */; };
 		E382BC68202BE6B700645FA4 /* TextureFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E382BC52202BE6B500645FA4 /* TextureFactory.cpp */; };
@@ -39,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E35D437B202D5210009F0F28 /* BackgroundGameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BackgroundGameObject.cpp; sourceTree = "<group>"; };
+		E35D437C202D5210009F0F28 /* BackgroundGameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BackgroundGameObject.hpp; sourceTree = "<group>"; };
 		E382BC16202BE0B500645FA4 /* Whack-A-Wae */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Whack-A-Wae"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E382BC4B202BE6B500645FA4 /* SDLManagerComponent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SDLManagerComponent.hpp; sourceTree = SOURCE_ROOT; };
 		E382BC4C202BE6B500645FA4 /* AudioManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AudioManager.hpp; sourceTree = SOURCE_ROOT; };
@@ -116,6 +119,8 @@
 		E382BC18202BE0B500645FA4 /* Whack-A-Wae */ = {
 			isa = PBXGroup;
 			children = (
+				E35D437B202D5210009F0F28 /* BackgroundGameObject.cpp */,
+				E35D437C202D5210009F0F28 /* BackgroundGameObject.hpp */,
 				E382BC4E202BE6B500645FA4 /* AudioManager.cpp */,
 				E382BC4C202BE6B500645FA4 /* AudioManager.hpp */,
 				E382BC5C202BE6B600645FA4 /* bleach.ttf */,
@@ -289,6 +294,7 @@
 				E382BC70202BE6B700645FA4 /* main.cpp in Sources */,
 				E382BC6B202BE6B700645FA4 /* FPSMonitor.cpp in Sources */,
 				E382BC6A202BE6B700645FA4 /* TextComponent.cpp in Sources */,
+				E35D437D202D5210009F0F28 /* BackgroundGameObject.cpp in Sources */,
 				E382BC67202BE6B700645FA4 /* DebugDisplayObject.cpp in Sources */,
 				E382BC6F202BE6B700645FA4 /* GameManagerComponent.cpp in Sources */,
 				E382BC72202BE6B700645FA4 /* SpriteComponent.cpp in Sources */,

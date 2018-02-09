@@ -9,13 +9,16 @@
 #include "GameManagerComponent.hpp"
 
 bool GameManagerComponent::gameOver = false;
-
+BackgroundGameObject * GameManagerComponent::background = NULL;
 std::vector<GameObject *> GameManagerComponent::objects = std::vector<GameObject*>();
 
 
 void GameManagerComponent::setup()
 {
-    
+    background = new BackgroundGameObject();
+    objects.push_back(background);
+    background->functionPointer = &addObject;
+
 }
 
 void GameManagerComponent::update()

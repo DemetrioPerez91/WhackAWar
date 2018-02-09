@@ -45,8 +45,6 @@ int test()
         InputManager::update();
         GameManagerComponent::update();
         SDLManagerComponent::present();
-        //FPSMonitor::calculateFramerATE();
-
     }
     return 0;
 }
